@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.491), rgba(0, 0, 0, 0.416)) , url(../img/IN-en-20230522-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-blend-mode: darken;
+   
+}
+.login-top{
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.login-top img{
+    width: 190px;
+}
+
+
+.login-box{
+    background-color:  #000000a6;
+    width: 430px;
+    height: 630px;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.small-text{
+    font-size: 13px;
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+
+.help{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.help a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.help a:hover{
+    text-decoration: underline;
+}
+.new{
+    color: rgba(212, 212, 212, 0.75)
+}
+.new a{
+    color: #fff;
+    text-decoration: none;
+}
+.new a:hover{
+    text-decoration: underline;
+}
+.extra{
+    color: rgba(212, 212, 212, 0.75);
+}
+.extra a{
+    text-decoration: none;
+}
+.extra a:hover{
+    text-decoration: underline;
+}
+.box{
+    margin-bottom: 100px;
+}
+
+.footer{
+    background-color: #000000a6;
+    color: #737373;
+}
+.list-unstyled li{
+    margin-top: 10px;
+}
+.list-unstyled a{
+    color: #737373;
+    text-decoration: none;
+}
+.list-unstyled a:hover{
+    text-decoration: underline;
+}
+.f-row{
+    padding-bottom: 4%;
+}
+.f-row h5{
+    margin-bottom: 20px;
+}
+#error{
+    display: none;
+    padding: 10px;
+    color: white;
+    background-color: rgba(204, 131, 41, 0.781);
+    margin-bottom: 10px;
+}

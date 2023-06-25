@@ -1,0 +1,218 @@
+/* .main{
+    height: 107vh;
+} */
+/* ------Nav------ */
+.nav {
+  margin: 0 19px;
+  margin-top: -5px;
+}
+.nav img {
+  margin-top: -20px;
+  width: 12.7rem;
+}
+.nav button {
+  background-color: #e50914;
+  color: #fff;
+}
+.nav button:hover {
+  background-color: rgb(189, 5, 14);
+  color: #fff;
+}
+hr {
+  margin-top: -20px;
+}
+/* -----content----- */
+.page4 p {
+  margin-top: 40px;
+  font-size: 15px;
+  text-align: inherit;
+}
+.page4 h1 {
+  margin-top: -10px;
+  font-size: 32px;
+  display: inline-block;
+  font-weight: 500;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+.page4 button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 140px;
+  font-size: 25px;
+}
+.page4 button:hover {
+  background-color: rgb(189, 5, 14);
+  color: #fff;
+}
+.btn-center {
+  margin-top: 40px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+/* ---card--- */
+.main-card {
+    margin-bottom: 30px;
+}
+
+.card {
+  flex: 1 1 auto;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  border-radius: 18px;
+  position: relative;
+  transition: margin 250ms ease-in-out 0s, box-shadow 250ms ease-in-out 0s,
+    border-color 250ms ease-in-out 0s;
+  margin: 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 2px 0px, rgba(128, 128, 128, 0.7) 0px 0px 0px 1px;
+    margin-bottom: 20px;
+
+}
+.card-title {
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  margin: 8px;
+  min-height: 120px;
+  padding: 12px 20px;
+}
+.div-ul {
+  cursor: pointer;
+}
+.card-ul {
+  box-sizing: border-box;
+  padding: 0px 25px;
+  width: 100%;
+}
+.card-li {
+  padding: 12.5px 0px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  /* -webkit-box-align: center; */
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+.tick-content {
+  display: flex;
+  flex: 1 1 0%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: rgb(118, 118, 118);
+  white-space: normal;
+}
+.alt {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.tick {
+  color: #737373;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  display: flex;
+  transition: color 0.25s ease-in-out 0s;
+  padding-right: 13px;
+}
+.always-tick {
+  color: rgb(229, 9, 20);
+}
+.alt1 {
+  margin-bottom: 23px;
+}
+.li-last {
+  border: none;
+}
+.t1 {
+  background: radial-gradient(
+      140.76% 131.96% at 100% 100%,
+      rgb(229, 9, 20) 0%,
+      rgba(74, 42, 150, 0.5) 73.57%,
+      rgba(74, 42, 150, 0) 100%
+    ),
+    rgb(29, 82, 157);
+}
+.t2 {
+  background: radial-gradient(
+      140.76% 131.96% at 100% 100%,
+      rgb(176, 56, 220) 0%,
+      rgba(74, 42, 150, 0.5) 73.57%,
+      rgba(74, 42, 150, 0) 100%
+    ),
+    rgb(29, 82, 157);
+}
+.t3 {
+  background: radial-gradient(
+      140.76% 131.96% at 100% 100%,
+      rgb(109, 59, 227) 0%,
+      rgba(74, 42, 150, 0.5) 73.57%,
+      rgba(74, 42, 150, 0) 100%
+    ),
+    rgb(29, 82, 157);
+}
+.t4 {
+  background: radial-gradient(
+      140.76% 131.96% at 100% 100%,
+      rgb(33, 114, 227) 0%,
+      rgba(74, 42, 150, 0.5) 73.57%,
+      rgba(74, 42, 150, 0) 100%
+    ),
+    rgb(29, 82, 157);
+}
+.scale {
+  transform: scale(1.05);
+}
+.activeColor {
+  color: rgb(229, 9, 20);
+}
+.activeColor2 {
+  color: rgb(176, 56, 220);
+}
+.activeColor3 {
+  color: rgb(109, 59, 227);
+}
+.activeColor4 {
+  color: rgb(33, 114, 227);
+}
+/* ----footer---- */
+.footer {
+  background-color: #f3f3f3;
+  color: #737373;
+}
+.list-unstyled li {
+  margin-top: 10px;
+}
+.list-unstyled a {
+  color: #737373;
+  text-decoration: none;
+}
+.list-unstyled a:hover {
+  text-decoration: underline;
+}
+.f-row {
+  padding-bottom: 4%;
+}
+.f-row h5 {
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+            /* Styles for small screens (phones) */
+            .main-card {
+                padding: 0 30px;
+            }
+
+            .card {
+                width: 100%;
+            }
+        }

@@ -1,0 +1,153 @@
+
+
+/* ------Nav------ */
+.nav {
+    margin: 0 19px;
+    margin-top: -5px;
+}
+
+.nav img {
+    margin-top: -20px;
+    width: 12.7rem;
+}
+
+.nav button {
+    background-color: #e50914;
+    color: #fff;
+}
+
+.nav button:hover {
+    background-color: rgb(189, 5, 14);
+    color: #fff;
+}
+
+hr {
+    margin-top: -20px;
+}
+
+/* -----content----- */
+.p3-content {
+    text-align: center;
+    display: inline-block;
+    max-width: 350px;
+    margin-left: 35%;
+    margin-bottom: 20%;
+}
+
+.page3 img {
+    margin: 100px 0 20px;
+}
+
+.page3 p {
+    font-size: 15px;
+    text-align: inherit;
+}
+
+.page3 h1 {
+    margin-top: -10px;
+    font-size: 32px;
+    display: inline-block;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.page3 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    text-align: left;
+    list-style: none;
+    margin-left: -12px;
+}
+
+.page3 ul li {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.page3 ul li i {
+    align-self: flex-start;
+    flex: none;
+    height: 26px;
+    width: 26px;
+}
+
+.page3 button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 140px;
+    font-size: 25px;
+}
+
+.page3 button:hover {
+    background-color: rgb(189, 5, 14);
+    color: #fff;
+}
+
+/* ----footer---- */
+.footer {
+    background-color: #f3f3f3;
+    color: #737373;
+}
+
+.list-unstyled li {
+    margin-top: 10px;
+}
+
+.list-unstyled a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.list-unstyled a:hover {
+    text-decoration: underline;
+}
+
+.row {
+    padding-bottom: 4%;
+}
+
+.row h5 {
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .p3-content {
+        max-width: none;
+        margin-left: 0;
+    }
+
+    .page3 button {
+        padding: 10px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav img {
+        width: 10rem;
+    }
+
+    .page3 ul li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav{
+        margin: 15px;
+    }
+    .nav img {
+        width: 8rem;
+    }
+
+    .page3 button {
+        padding: 10px 80px;
+        font-size: 20px;
+    }
+    
+}
